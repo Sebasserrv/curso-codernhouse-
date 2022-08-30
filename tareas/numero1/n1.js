@@ -1,41 +1,31 @@
 let vidaGoku = 100
 let vidaVegeta = 100
 
-const MIN_POWER = 5
-const MAX_POWER = 12
+const MIN_POWER = 15
+const MAX_POWER = 20
+const maximo = 21
+const minimo = 15.5
 
-//arrow function
-const ambosSiguenVivos = () => vidaGoku > 0 && vidaVegeta > 0
 
-const calcularGolpe = () => Math.round(Math.random() * (MAX_POWER - MIN_POWER) + 	MIN_POWER) 
+let personaje = parseInt(
+prompt("Elige personaje para jugar!!! \n 1. Goku \n 2. Vegeta"
+));
 
-const gokuSigueVivo = () => vidaGoku > 0
-let round = 0
-
-while (ambosSiguenVivos()) {
-
-	round++
-	console.log(`Round ${round}`)
-
-	const golpeGoku = calcularGolpe()
-	const golpeVegeta = calcularGolpe()
-
-	if(golpeGoku > golpeVegeta){
-		//ataca Goku
-		console.log(`Goku ataca a Vegeta con un golpe de ${golpeGoku}`)
-		vidaVegeta = vidaVegeta - golpeGoku
-		console.log(`Vegeta queda en ${vidaVegeta} de vida`)
-	}else{
-		//ataca Vegeta
-		console.log(`Vegeta ataca a Goku con un golpe de ${golpeVegeta}`)
-		vidaGoku = vidaGoku - vidaVegeta
-		console.log(`Goku queda en ${vidaGoku} de vida`)
-	}
-
+if (personaje === 1) {
+  alert("Usted selecciono a Goku");
+  let Goku = parseInt(
+	prompt(
+	  "elige tu primer ataque: \n 1.Onda de Ki \n 2.Acometida De Potencia"
+	));
+} else if (personaje === 2) {
+  alert("Usted selecciono a Vgeta");
 }
 
-if(gokuSigueVivo()){
-	console.log(`Goku ganó la pelea. Suvida es de: ${vidaGoku}`)
-}else{
-	console.log(`Vegeta ganó la pelea. Su vida es de: ${vidaVegeta}`)
+switch (seleccionUsuario) {
+  case 1:
+    alert("le hiciste ");
+    break;
+  case 2:
+    alert("Usted selecciono un Taco");
+    break;
 }
