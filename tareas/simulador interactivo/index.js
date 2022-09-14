@@ -1,4 +1,9 @@
-let Variante1 = prompt(' capital')
-let Variante2 = prompt('cuota')
-let Variante3 = prompt('interes')
+const capital = parseFloat (prompt('ingrese monto del prestamo'))
+const cuota = parseFloat (prompt('ingrese cuota'))
+const interes = parseFloat(prompt('ingrese el interes sobre el prestamo'))
 
+if (condition) {
+    name
+} else {
+    
+}
