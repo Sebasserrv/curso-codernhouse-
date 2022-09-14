@@ -39,27 +39,27 @@ function Usuario_Comun() {
       )
     );
     if (seleccionUsuario === 1) {
-      alert("ya le traeran su Hamburguesa");
+      alert("Usted selecciono una Hamburguesa");
     } else if (seleccionUsuario === 2) {
-      alert("ya le traeran su Taco");
+      alert("Usted selecciono un Taco");
     } else if (seleccionUsuario === 3) {
-      alert("ya le traeran su Hot dog");
+      alert("Usted selecciono un Hot dog");
     } else if (seleccionUsuario === 4) {
-      alert("ya le traeran su Hot dog");
+      alert("Usted selecciono un Hot dog");
     }
     
     switch (seleccionUsuario) {
       case 1:
-        alert("Usted selecciono una Hamburguesa");
+        alert("ya le traeran su Hamburguesa");
         break;
       case 2:
-        alert("Usted selecciono un Taco");
+        alert("ya le traeran su Taco");
         break;
       case 3:
-        alert("Usted selecciono un Hot dog");
+        alert("ya le traeran su Hot dog");
         break;
       case 4:
-        alert("Usted selecciono un Hot dog");
+        alert("ya le traeran su Hot dog");
         break;
       default:
         alert("Opción inválida");
