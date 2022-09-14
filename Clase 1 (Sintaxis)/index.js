@@ -48,4 +48,3 @@ const FRASE = "Hola " + NOMBRE + " este año tendrás: " + EDAD + " años"
 console.log(FRASE)
 
 alert(FRASE)
- document.write("hola")
