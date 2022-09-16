@@ -35,7 +35,7 @@ function Usuario_Comun() {
     
     let seleccionUsuario = parseInt(
       prompt(
-        "Que desea comer: \n 1.Una Hamburguesa \n 2.Un Taco \n 3.Un Hot dog \n 4.Unos Nachos"
+        "Que desea comer ${s}: \n 1.Una Hamburguesa \n 2.Un Taco \n 3.Un Hot dog \n 4.Unos Nachos"
       )
     );
     if (seleccionUsuario === 1) {
