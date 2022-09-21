@@ -1,18 +1,18 @@
-//  let root = 'admin'
-//  let password = '120113'
+ let root = 'admin'
+ let password = '120113'
 
-//  const usario_creado = prompt('ingrese un nombre de usuario')
-//  const contraseña_creada = prompt('ingrese una contraseña')
+ const usario_creado = prompt('ingrese un nombre de usuario')
+ const contraseña_creada = prompt('ingrese una contraseña')
 
 
 
-// if (usario_creado == root, contraseña_creada == password) {
-//     admin()
-// } else if (usario_creado == ' ', contraseña_creada == ' ') {
-//     alert ('Usted no ingreso alguno de los datos')
-// }else {
-//     Usuario_Comun()
-// }
+if (usario_creado == root, contraseña_creada == password) {
+    admin()
+} else if (usario_creado == ' ', contraseña_creada == ' ') {
+    alert ('Usted no ingreso alguno de los datos')
+}else {
+    Usuario_Comun()
+}
 
 function Usuario_Comun() {
     
