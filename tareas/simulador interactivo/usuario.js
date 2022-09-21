@@ -1,23 +1,21 @@
- let root = 'admin'
- let password = '120113'
+//  let root = 'admin'
+//  let password = '120113'
 
- const usario_creado = prompt('ingrese un nombre de usuario')
- const contraseña_creada = prompt('ingrese una contraseña')
+//  const usario_creado = prompt('ingrese un nombre de usuario')
+//  const contraseña_creada = prompt('ingrese una contraseña')
 
 
 
-if (usario_creado == root, contraseña_creada == password) {
-    admin()
-} else if (usario_creado == ' ', contraseña_creada == ' ') {
-    alert ('Usted no ingreso alguno de los datos')
-}else {
-    Usuario_Comun()
-}
+// if (usario_creado == root, contraseña_creada == password) {
+//     admin()
+// } else if (usario_creado == ' ', contraseña_creada == ' ') {
+//     alert ('Usted no ingreso alguno de los datos')
+// }else {
+//     Usuario_Comun()
+// }
 
 function Usuario_Comun() {
-    alert('Bienvenido '+ usario_creado)
-
-
+    
     let TrajeSleccionado = parseInt(
       prompt(
         'Bien venid@ a Eva by Ara Battle \n Puede indicarnos que tipo de taje de baño quiere? \n (escriba el numero de la opcion) \n 1. surfismo \n 2. para competencias \n 3. biquini dos piezas \n 4. una sola pieza '
@@ -33,10 +31,10 @@ function Usuario_Comun() {
       alert("Un traje de baño a la ultima moda en camino");
     } else{
       alert('por favor ingrese una opcion valida')
+      Usuario_Comun()
     }
   }
 
 function admin() {
     alert('Bienvenido de nuevo administrador')
  }
- 
