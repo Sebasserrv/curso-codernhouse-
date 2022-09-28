@@ -38,3 +38,5 @@ function Usuario_Comun() {
 function admin() {
     alert('Bienvenido de nuevo administrador')
  }
+
+ 

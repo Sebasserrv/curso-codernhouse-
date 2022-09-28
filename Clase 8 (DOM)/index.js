@@ -111,8 +111,8 @@ for (const producto of listaProductos) {
 
   contenedorProductos.append(column);
 }
-/*
+
   let columnaBorrar = document.getElementById("columna-1")
   
   columnaBorrar.remove()
-  */
+
