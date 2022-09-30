@@ -1,3 +1,4 @@
+
 //================ OBJETO GLOBAL document ================
 console.log(document);
 
@@ -6,14 +7,14 @@ console.log(document.head);
 console.log(document.body);
 
 //================ OBTENER ELEMENTO POR ID  ================
+let divuno = document.getElementById('conteiner-ejemplo-uno')
+let parrafoUno = document.getElementById('parrafo1')
 
-let divUno = document.getElementById("contenedor-ejemplo-dos");
-let parrafoUno = document.getElementById("parrafo1");
-console.log(divUno.innerHTML);
-console.log(parrafoUno.innerHTML);
-
+console.log(divuno)
+console.log(parrafoUno)
 //================ OBTENER ELEMENTOS POR CLASS NAME  ================
 
+let listadivs 
 let listaDivs = document.getElementsByClassName("contenedor-ejemplo-tres");
 console.log(listaDivs);
 
